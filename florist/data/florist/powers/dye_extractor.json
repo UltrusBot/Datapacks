@@ -1,0 +1,141 @@
+{
+    "type": "apoli:multiple",
+    "name": "Dye Extractor",
+    "description": "You get 2x dyes from flowers when crafting.",
+    "wither_rose_black": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:black_dye_from_wither_rose",
+        "result": {
+            "item": "minecraft:black_dye",
+            "amount": 2
+        }
+    },
+    "light_blue_from_blue_orchid": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:light_blue_dye_from_blue_orchid",
+        "result": {
+            "item": "minecraft:light_blue_dye",
+            "amount": 2
+        }
+    },
+    "blue_from_cornflower": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:blue_dye_from_cornflower",
+        "result": {
+            "item": "minecraft:blue_dye",
+            "amount": 2
+        }
+    },
+    "light_gray_from_azure_bluet": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:light_gray_dye_from_azure_bluet",
+        "result": {
+            "item": "minecraft:light_gray_dye",
+            "amount": 2
+        }
+    },
+    "light_gray_from_daisy": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:light_gray_dye_from_oxeye_daisy",
+        "result": {
+            "item": "minecraft:light_gray_dye",
+            "amount": 2
+        }
+    },
+    "light_gray_from_white_tulip": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:light_gray_dye_from_white_tulip",
+        "result": {
+            "item": "minecraft:light_gray_dye",
+            "amount": 2
+        }
+    },
+    "magenta_from_allium": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:magenta_dye_from_allium",
+        "result": {
+            "item": "minecraft:magenta_dye",
+            "amount": 2
+        }
+    },
+    "magenta_from_lilac": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:magenta_dye_from_lilac",
+        "result": {
+            "item": "minecraft:magenta_dye",
+            "amount": 4
+        }
+    },
+    "orange_from_tulip": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:orange_dye_from_orange_tulip",
+        "result": {
+            "item": "minecraft:orange_dye",
+            "amount": 2
+        }
+    },
+    "pink_from_peony": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:pink_dye_from_peony",
+        "result": {
+            "item": "minecraft:pink_dye",
+            "amount": 4
+        }
+    },
+    "pink_from_tulip": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:pink_dye_from_pink_tulip",
+        "result": {
+            "item": "minecraft:pink_dye",
+            "amount": 2
+        }
+    },
+    "red_from_poppy": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:red_dye_from_poppy",
+        "result": {
+            "item": "minecraft:red_dye",
+            "amount": 2
+        }
+    },
+    "red_from_tulip": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:red_dye_from_tulip",
+        "result": {
+            "item": "minecraft:red_dye",
+            "amount": 2
+        }
+    },
+    "red_from_rose_bush": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:red_dye_from_rose_bush",
+        "result": {
+            "item": "minecraft:red_dye",
+            "amount": 4
+        }
+    },
+    "white_from_valley": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:white_dye_from_lily_of_the_valley",
+        "result": {
+            "item": "minecraft:white_dye",
+            "amount": 2
+        }
+    },
+    "yellow_from_dandelion": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:yellow_dye_from_dandelion",
+        "result": {
+            "item": "minecraft:yellow_dye",
+            "amount": 2
+        }
+    },
+    "yellow_from_sunflower": {
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:yellow_dye_from_sunflower",
+        "result": {
+            "item": "minecraft:yellow_dye",
+            "amount": 4
+        }
+    }
+}

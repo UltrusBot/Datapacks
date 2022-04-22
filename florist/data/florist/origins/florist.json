@@ -1,0 +1,12 @@
+{
+    "name": "Florist",
+    "description": "Florists are trained in the art of flower growing.",
+    "icon": {
+        "item": "minecraft:poppy"
+    },
+    "impact": 0,
+    "powers": [
+        "florist:tend_to_the_flowers",
+        "florist:dye_extractor"
+    ]
+}

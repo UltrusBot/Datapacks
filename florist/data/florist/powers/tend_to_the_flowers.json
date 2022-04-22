@@ -1,0 +1,245 @@
+{
+    "type": "apoli:multiple",
+    "name": "Flower Care",
+    "description": "You can bonemeal small flowers.",
+
+    "bonemeal": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:and",
+            "conditions": [
+                {
+                    "type": "apoli:in_tag",
+                    "tag": "minecraft:small_flowers"
+                },
+                {
+                    "type": "apoli:block",
+                    "block": "minecraft:wither_rose",
+                    "inverted": true
+                }
+            ]
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "particle minecraft:happy_villager ~ ~ ~ 0.1 0.1 0.1 2 15"
+        },
+        "entity_action": {
+            "type": "apoli:play_sound",
+            "sound": "minecraft:item.bone_meal.use"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        },
+        "held_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        }
+    },
+    "dandelion": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:dandelion"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:dandelion\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "poppy": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:poppy"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:poppy\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "blue_orchid": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:blue_orchid"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:blue_orchid\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "allium": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:allium"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:allium\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "azure_bluet": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:azure_bluet"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:azure_bluet\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "red_tulip": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:red_tulip"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:red_tulip\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "orange_tulip": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:orange_tulip"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:orange_tulip\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "white_tulip": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:white_tulip"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:white_tulip\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "pink_tulip": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:pink_tulip"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:pink_tulip\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "oxeye_daisy": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:oxeye_daisy"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:oxeye_daisy\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "cornflower": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:cornflower"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:cornflower\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    },
+    "lily_of_the_valley": {
+        "type": "apoli:action_on_block_use",
+        "block_condition": {
+            "type": "apoli:block",
+            "block": "minecraft:lily_of_the_valley"
+        },
+        "block_action": {
+            "type": "apoli:execute_command",
+            "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:lily_of_the_valley\",Count:1}}"
+        },
+        "item_condition": {
+            "type": "apoli:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        }
+    }
+}
